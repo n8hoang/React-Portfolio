@@ -1,10 +1,11 @@
-import Header from '../compenents/Header'
 import React from 'react';
 import Project from '../compenents/Project';
 import shapeshiftss from '../assets/shapeshiftss.png'
 import earwormss from '../assets/earwormss.png'
 import weatherappss from '../assets/weatherappss.png'
 import ssnotetaker from '../assets/ssnotetaker.png'
+import schedulerss from '../assets/schedulerss.png'
+import codequizss from '../assets/codequizss.png'
 
 const projectsData = [
   {
@@ -28,16 +29,32 @@ const projectsData = [
     title: 'Note Taker',
     description: 'Note taker application that allows you to add and delete notes that are stored on a local DB using express and deployed to Heroku. ',
     imageUrl: ssnotetaker,
-    projectUrl: 'hhttps://murmuring-meadow-76888-5e7e38fa227c.herokuapp.com/',
+    projectUrl: 'https://murmuring-meadow-76888-5e7e38fa227c.herokuapp.com/',
     githubUrl: 'https://github.com/n8hoang/11-Express-Note-Taker'
   },
   {
     id: 4,
     title: 'Weather App',
-    description: 'This application is a weather app that allows you to get a 5 day forecast from any city. This project uses the Open Weather API.',
+    description: 'Retrieve a five-day weather forecast for any city through this sleek app, powered by the Open Weather API.',
     imageUrl: weatherappss,
     projectUrl: 'https://n8hoang.github.io/06-challenge-weather/',
     githubUrl: 'https://github.com/n8hoang/06-challenge-weather'
+  },
+  {
+    id: 5,
+    title: 'Work Scheduler',
+    description: 'Simple calendar application that allows a user to save events for each hour of a typical working day (9am–5pm). ',
+    imageUrl: schedulerss,
+    projectUrl: 'https://n8hoang.github.io/05-challenge/Develop/',
+    githubUrl: 'https://github.com/n8hoang/05-challenge'
+  },
+  {
+    id: 6,
+    title: 'JS Coding Quiz',
+    description: 'A Timed, 10-Question Multiple-Choice Quiz to Assess Your Mastery of the JavaScript Fundamentals',
+    imageUrl: codequizss,
+    projectUrl: 'https://n8hoang.github.io/04-Challenge--Code-Quiz',
+    githubUrl: 'https://github.com/n8hoang/04-Challenge--Code-Quiz'
   },
 ];
 
