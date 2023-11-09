@@ -11,6 +11,11 @@ const NavBar = () => {
         },
         {
             id: 2,
+            link: '/about',
+            name: 'About Me'
+        },
+        {
+            id: 3,
             link: '/portfolio',
             name: 'Portfolio'
         },

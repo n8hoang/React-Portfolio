@@ -10,13 +10,13 @@ const Footer = () => {
         </p>
         <div className="flex justify-center space-x-4 mt-2">
           {/* Links to social media profiles with icons */}
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
+          <a href="https://github.com/n8hoang" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
             <FaGithub size={20} />
           </a>
           <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
             <FaLinkedinIn size={20} />
           </a>
-          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
+          <a href="mailto:natehoang911@gmail.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
             <CgMail size={20} />
           </a>
         </div>
