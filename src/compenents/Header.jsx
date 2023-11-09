@@ -11,11 +11,12 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-black text-white mt-16 fixed w-full text-center">
-      <h1 className="text-xl pb-1 mt-5 font-semibold">
+    <header className="bg-black text-white mt-16 fixed w-full text-center -z-0">
+    <h1 className="text-xl pb-1 mt-5 font-semibold">
         {formatPageName(location.pathname)}
-      </h1>
+    </h1>
     </header>
+
   );
 };
 

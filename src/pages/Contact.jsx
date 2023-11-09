@@ -51,7 +51,7 @@ function Contact() {
 
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <div className="flex items-center justify-center min-h-screen">
         <form onSubmit={handleSubmit} className="max-w-md w-full p-8">
           <div className="mb-6">

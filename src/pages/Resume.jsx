@@ -9,7 +9,7 @@ const Resume = () => {
 
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       {/* Flex container to center children */}
       <div className="flex min-h-screen items-center justify-center">
         <div className="text-center pb-20 pt-36">
