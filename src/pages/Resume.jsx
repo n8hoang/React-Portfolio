@@ -1,26 +1,32 @@
-import Header from '../compenents/Header'
+import Header from '../compenents/Header';
+import React from 'react';
+import resume from '../assets/sampleresumetemplate.pdf'
 
-export default function Resume() {
-    return (
-      <div>
-        <Header />
-        <h1>Blog Page</h1>
-        <p>
-          Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-          Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-          dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-          sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-          sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-          vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-          libero. Class aptent taciti sociosqu ad litora torquent per conubia
-          nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-          lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-          Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-          in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-          bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-          est ligula suscipit velit, sed bibendum turpis dui in sapien.
-        </p>
+const Resume = () => {
+  // You should host your resume on the public folder or any other static file server
+  // and replace the `path_to_your_resume.pdf` with the URL to the resume file.
+  const resumeLink = resume;
+
+  return (
+    <>
+      <Header />
+      {/* Flex container to center children */}
+      <div className="flex min-h-screen items-center justify-center">
+        <div className="text-center pb-20 pt-36">
+          <h1 className="text-4xl text-gray-800 font-bold mb-6">
+            You can download my resume by clicking the link below.
+          </h1>
+          <a
+            href={resumeLink}
+            download
+            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+          >
+            Download Resume
+          </a>
+        </div>
       </div>
-    );
-  }
-  
+    </>
+  );
+};
+
+export default Resume;
