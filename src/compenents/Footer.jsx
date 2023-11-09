@@ -13,7 +13,7 @@ const Footer = () => {
           <a href="https://github.com/n8hoang" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
             <FaGithub size={20} />
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
+          <a href="https://www.linkedin.com/in/nathan-hoang-560b1229a" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
             <FaLinkedinIn size={20} />
           </a>
           <a href="mailto:natehoang911@gmail.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
