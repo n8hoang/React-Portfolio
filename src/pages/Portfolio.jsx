@@ -1,26 +1,67 @@
-
 import Header from '../compenents/Header'
-export default function Portfolio() {
-    return (
-      <div>
-        <Header />
-        <h1>Blog Page</h1>
-        <p>
-          Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-          Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-          dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-          sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-          sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-          vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-          libero. Class aptent taciti sociosqu ad litora torquent per conubia
-          nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-          lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-          Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-          in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-          bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-          est ligula suscipit velit, sed bibendum turpis dui in sapien.
-        </p>
+import React from 'react';
+import Project from '../compenents/Project';
+import shapeshiftss from '../assets/shapeshiftss.png'
+import earwormss from '../assets/earwormss.png'
+import weatherappss from '../assets/weatherappss.png'
+import ssnotetaker from '../assets/ssnotetaker.png'
+
+const projectsData = [
+  {
+    id: 1,
+    title: 'ShapeShifters',
+    description: 'ShapeShifters is a fitness blog where users can create an account and share their workouts/blog posts to other users on the website.',
+    imageUrl: shapeshiftss,
+    projectUrl: 'https://obscure-dawn-31918-e2d4b725bd63.herokuapp.com/',
+    githubUrl: 'https://github.com/shawndreifuss/ShapeShift'
+  },
+  {
+    id: 2,
+    title: 'Earworm',
+    description: 'Earworm is a lyric translation web application that allows users to translate their favorite song lyrics into any language!',
+    imageUrl: earwormss,
+    projectUrl: 'https://dariapressley.github.io/project-earworm/',
+    githubUrl: 'https://github.com/DariaPressley/project-earworm'
+  },
+  {
+    id: 3,
+    title: 'Note Taker',
+    description: 'Note taker application that allows you to add and delete notes that are stored on a local DB using express and deployed to Heroku. ',
+    imageUrl: ssnotetaker,
+    projectUrl: 'hhttps://murmuring-meadow-76888-5e7e38fa227c.herokuapp.com/',
+    githubUrl: 'https://github.com/n8hoang/11-Express-Note-Taker'
+  },
+  {
+    id: 4,
+    title: 'Weather App',
+    description: 'This application is a weather app that allows you to get a 5 day forecast from any city. This project uses the Open Weather API.',
+    imageUrl: weatherappss,
+    projectUrl: 'https://n8hoang.github.io/06-challenge-weather/',
+    githubUrl: 'https://github.com/n8hoang/06-challenge-weather'
+  },
+];
+
+const Portfolio = () => {
+  return (
+    <>
+    <Header/>
+    <div className="container pt-36 min-h-screen mx-auto px-4 py-8">
+      <h1 className="text-4xl font-bold text-center text-gray-800 mb-12">My Projects</h1>
+      <div className="flex flex-wrap justify-center">
+        {projectsData.map((project) => (
+          <Project
+            key={project.id}
+            title={project.title}
+            description={project.description}
+            imageUrl={project.imageUrl}
+            projectUrl={project.projectUrl}
+            githubUrl={project.githubUrl}
+          />
+        ))}
       </div>
-    );
-  }
-  
+    </div>
+    </>
+  );
+};
+
+export default Portfolio;

@@ -5,7 +5,7 @@ import resume from '../assets/sampleresumetemplate.pdf'
 const Resume = () => {
   // You should host your resume on the public folder or any other static file server
   // and replace the `path_to_your_resume.pdf` with the URL to the resume file.
-  const resumeLink = resume;
+  const resumeLink = resume; // sample resume , change to my resume when completed
 
   return (
     <>
