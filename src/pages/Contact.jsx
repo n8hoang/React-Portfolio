@@ -51,9 +51,9 @@ function Contact() {
 
   return (
     <>
-      {/* <Header /> */}
-      <div className="flex items-center justify-center min-h-screen">
-        <form onSubmit={handleSubmit} className="max-w-md w-full p-8">
+    <div className="flex flex-col items-center justify-center min-h-screen">
+      <h2 className="text-3xl font-semibold text-gray-900 mb-8">Contact Me</h2>
+      <form onSubmit={handleSubmit} className="max-w-md w-full p-8">
           <div className="mb-6">
             <label htmlFor="name" className="block mb-2 text-sm font-medium text-gray-900">Your Name</label>
             <input

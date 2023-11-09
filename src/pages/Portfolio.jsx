@@ -44,7 +44,6 @@ const projectsData = [
 const Portfolio = () => {
   return (
     <>
-    {/* <Header/> */}
     <div className="container pt-36 min-h-screen mx-auto px-4 py-8">
       <h1 className="text-4xl font-bold text-center text-gray-800 mb-12">My Projects</h1>
       <div className="flex flex-wrap justify-center">

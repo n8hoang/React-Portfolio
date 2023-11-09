@@ -5,7 +5,6 @@ import profilePic from '../assets/profilepic.png';
 function About() {
   return (
     <>
-    {/* <Header/> */}
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 pt-36 p-4">
 
         <div className="mb-4">
