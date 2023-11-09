@@ -1,6 +1,9 @@
+
+import Header from '../compenents/Header'
 export default function Portfolio() {
     return (
       <div>
+        <Header />
         <h1>Blog Page</h1>
         <p>
           Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
