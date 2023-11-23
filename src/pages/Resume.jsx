@@ -10,7 +10,7 @@ const Resume = () => {
   return (
     <>
       {/* Flex container to center children */}
-      <div className="flex min-h-screen items-center justify-center">
+      <div className="flex min-h-screen items-center justify-center bg-slate-400">
         <div className="text-center pb-20 pt-36">
           <h1 className="text-4xl text-gray-800 font-bold mb-6">
             You can download my resume by clicking the link below.

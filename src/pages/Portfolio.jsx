@@ -60,8 +60,8 @@ const projectsData = [
 
 const Portfolio = () => {
   return (
-    <>
-    <div className="container pt-36 min-h-screen mx-auto px-4 py-8">
+    
+    <div className="container bg-slate-400 pt-36 min-h-screen min-w-full mx-auto px-4 py-8">
       <h1 className="text-4xl font-bold text-center text-gray-800 mb-12">My Projects</h1>
       <div className="flex flex-wrap justify-center">
         {projectsData.map((project) => (
@@ -76,7 +76,7 @@ const Portfolio = () => {
         ))}
       </div>
     </div>
-    </>
+    
   );
 };
 

@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="bg-black text-white text-center p-4">
       <div className="container mx-auto">
         <p className="text-sm">
-          &copy; {new Date().getFullYear()} My Portfolio. All rights reserved.
+          &copy; {new Date().getFullYear()} Nathan Hoang's Portoflio.
         </p>
         <div className="flex justify-center space-x-4 mt-2">
           {/* Links to social media profiles with icons */}

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Project = ({ title, description, imageUrl, projectUrl, githubUrl }) => {
   return (
-    <div className="max-w-sm rounded overflow-hidden shadow-lg pb-5 m-4">
+    <div className="max-w-sm rounded overflow-hidden shadow-xl pb-5 m-4 bg-slate-200">
       <img className="w-full max-h-56 object-cover" src={imageUrl} alt={title} />
       <div className="px-6 py-4">
         <div className="font-bold text-xl mb-2">{title}</div>

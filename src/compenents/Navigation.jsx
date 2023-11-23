@@ -36,10 +36,10 @@ const NavBar = () => {
     ]
 
 
-    return <> <Header/>
-    <div className='flex justify-between items-center w-full h-20 px-4 text-white fixed bg-black'>
+    return <>
+    <div className='flex z-20 justify-between items-center w-full h-20 px-4 text-white fixed bg-black'>
         <div>
-            <h1 className=' text-5xl font-signature ml-2'>Nathan</h1>
+            <Link to="/"className=' text-5xl font-signature ml-2'>Nathan</Link>
         </div>
 
         <ul className='hidden md:flex'>

@@ -51,7 +51,7 @@ function Contact() {
 
   return (
     <>
-    <div className="flex flex-col items-center justify-center min-h-screen">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-slate-400">
       <h2 className="text-3xl font-semibold text-gray-900 mb-8">Contact Me</h2>
       <form onSubmit={handleSubmit} className="max-w-md w-full p-8">
           <div className="mb-6">
