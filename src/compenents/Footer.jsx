@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedinIn, FaConnectdevelop } from 'react-icons/fa';
 import {CgMail} from 'react-icons/cg'
 const Footer = () => {
   return (
-    <footer className="bg-black text-white text-center p-4">
+    <footer className="bg-black text-white relative z-1 text-center p-4">
       <div className="container mx-auto">
         <p className="text-sm">
           &copy; {new Date().getFullYear()} Nathan Hoang's Portoflio.
