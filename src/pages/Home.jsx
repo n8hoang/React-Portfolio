@@ -19,7 +19,7 @@ const Homepage = () => {
           <p className="mt-3 text-xl text-slate-50">
             Full-Stack Web Developer || Software Engineer
           </p>
-          <div className="mt-6 mb-14 grid grid-row-2 grid-cols-2 space-x-2 justify-center place-items-center relative z-0 sm:flex sm:space-x-5 sm:mb-4">
+          <div className="mt-6 mb-14 grid grid-row-2 grid-cols-2 space-x-2 justify-center place-items-center relative z-0 sm:flex sm:space-x-5 sm:mb-4">     
             <Link to="/about" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 my-2 px-4 relative left-1 rounded w-[145px] sm:w-auto sm:static">
               About
             </Link>
