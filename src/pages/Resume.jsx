@@ -1,6 +1,6 @@
 import Header from '../compenents/Header';
 import React from 'react';
-import resume from '../assets/sampleresumetemplate.pdf'
+import resume from '../assets/natehoangresume.pdf'
 
 const Resume = () => {
   // You should host your resume on the public folder or any other static file server
