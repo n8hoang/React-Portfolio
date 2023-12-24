@@ -5,11 +5,28 @@ import earwormss from '../assets/earwormss.png'
 import weatherappss from '../assets/weatherappss.png'
 import ssnotetaker from '../assets/ssnotetaker.png'
 import schedulerss from '../assets/schedulerss.png'
-import codequizss from '../assets/codequizss.png'
+import tgpss from '../assets/tgpss.png'
+import employeasess from '../assets/employeasess.png'
 
 const projectsData = [
   {
     id: 1,
+    title: 'True Group Partners',
+    description: 'Full-stack SPA for True Group Partners company',
+    imageUrl: tgpss,
+    projectUrl: 'https://radiant-ridge-84806-2b323e60307f.herokuapp.com/',
+    githubUrl: 'https://github.com/n8hoang/True-Group-Partners'
+  },
+  {
+    id: 2,
+    title: 'EmployEase',
+    description: 'EmployEase is a job board application with trello board and leaflet map.',
+    imageUrl: employeasess,
+    projectUrl: 'https://thawing-eyrie-65047-2d2e54b0acae.herokuapp.com/',
+    githubUrl: 'https://github.com/jhuber1155/EmployEase'
+  },
+  {
+    id: 3,
     title: 'ShapeShifters',
     description: 'ShapeShifters is a fitness blog where users can create an account and share their workouts/blog posts to other users on the website.',
     imageUrl: shapeshiftss,
@@ -17,7 +34,7 @@ const projectsData = [
     githubUrl: 'https://github.com/shawndreifuss/ShapeShift'
   },
   {
-    id: 2,
+    id: 4,
     title: 'Earworm',
     description: 'Earworm is a lyric translation web application that allows users to translate their favorite song lyrics into any language!',
     imageUrl: earwormss,
@@ -25,7 +42,7 @@ const projectsData = [
     githubUrl: 'https://github.com/DariaPressley/project-earworm'
   },
   {
-    id: 3,
+    id: 5,
     title: 'Note Taker',
     description: 'Note taker application that allows you to add and delete notes that are stored on a local DB using express and deployed to Heroku. ',
     imageUrl: ssnotetaker,
@@ -33,7 +50,7 @@ const projectsData = [
     githubUrl: 'https://github.com/n8hoang/11-Express-Note-Taker'
   },
   {
-    id: 4,
+    id: 6,
     title: 'Weather App',
     description: 'Retrieve a five-day weather forecast for any city through this sleek app, powered by the Open Weather API.',
     imageUrl: weatherappss,
@@ -41,21 +58,13 @@ const projectsData = [
     githubUrl: 'https://github.com/n8hoang/06-challenge-weather'
   },
   {
-    id: 5,
+    id: 7,
     title: 'Work Scheduler',
     description: 'Simple calendar application that allows a user to save events for each hour of a typical working day (9am–5pm). ',
     imageUrl: schedulerss,
     projectUrl: 'https://n8hoang.github.io/05-challenge/Develop/',
     githubUrl: 'https://github.com/n8hoang/05-challenge'
-  },
-  {
-    id: 6,
-    title: 'JS Coding Quiz',
-    description: 'A Timed, 10-Question Multiple-Choice Quiz to Assess Your Mastery of the JavaScript Fundamentals',
-    imageUrl: codequizss,
-    projectUrl: 'https://n8hoang.github.io/04-Challenge--Code-Quiz',
-    githubUrl: 'https://github.com/n8hoang/04-Challenge--Code-Quiz'
-  },
+  }
 ];
 
 const Portfolio = () => {
