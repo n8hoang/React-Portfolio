@@ -1,4 +1,3 @@
-import Header from '../compenents/Header';
 import axios from 'axios';
 import React, { useState } from 'react';
 
@@ -40,6 +39,8 @@ function Contact() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setSuccessMessage(''); // Reset success message
+    setErrorMessage('');   // Reset error message
     setIsLoading(true)
 
     // Validate form inputs
