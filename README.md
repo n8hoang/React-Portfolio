@@ -33,7 +33,7 @@ Explore the various sections of the portfolio to learn more about my projects, s
 
 ## Deployment
 
-This portfolio is deployed on Netlify. You can view the live version [here](https://n8hoang-portfolio.netlify.app/).
+This portfolio is deployed on Netlify. You can view the live version [here](https://shielded-cove-00911-146487fc1d18.herokuapp.com/).
 
 ## License
 
