@@ -52,7 +52,7 @@ function Contact() {
       return;
     }
     try {
-      const response = await axios.post('http://localhost:3001/send-message', formData);
+      const response = await axios.post('/send-message', formData);
       console.log('Email sent successfully:', response.data);
       setSuccessMessage('Email sent successfully.');
       setIsLoading(false);
